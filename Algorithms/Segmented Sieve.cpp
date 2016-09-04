@@ -42,7 +42,9 @@ int main()
 		scanf("%lld%lld",&lowx,&highy);
 
 		if(highy <= prime[prime.size()-1]) {
+			
 			for(long long int i=0; i<prime.size();i++) {
+				
 				if(prime[i] >= lowx && prime[i] <= highy) {
 					printf("%lld\n",prime[i]);
 				}
