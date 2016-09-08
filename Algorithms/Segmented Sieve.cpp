@@ -61,7 +61,9 @@ int main()
 			memset(mark, true, sizeof(mark));
 
 			for(long long int i=0; i < prime.size(); i++) {
+				
  				if(prime[i] > highy) break;
+				
 				for(long long int j=prime[i]*2; j<=highy; j+=prime[i]) {
 					mark[j-lowx] = false;
 				}
