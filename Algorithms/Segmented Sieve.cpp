@@ -13,6 +13,7 @@ void SimpleSieve(long long int limit) {
 	memset(mark, true, sizeof(mark));
 
 	for(long long int p=2; p*p<limit; p++) {
+		
 		if(mark[p] == true) {
 			for(long long int i=p*2; i<limit; i+=p) {
 				mark[i] = false;
@@ -65,6 +66,7 @@ int main()
 			}
 
 			for(long long int i=lowx; i<=highy; i++) {
+				
 				if(mark[i-lowx] == true) {
 					printf("%lld\n",i);
 				}
