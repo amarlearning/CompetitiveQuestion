@@ -7,3 +7,4 @@ This repository contains solutions to every problems that I have solved on CodeF
  * [The Stock Span Problem](https://www.youtube.com/watch?v=LvQzYMXEANs)
  * [Stack Problems](https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/practice-problems/)
  * [The Two Pointer Algorithm](https://tp-iiita.quora.com/The-Two-Pointer-Algorithm)
+ * [Dynamic Programming and Bit Masking](https://www.hackerearth.com/practice/algorithms/dynamic-programming/bit-masking/tutorial/)
